@@ -11492,8 +11492,12 @@ button.bg-dark:hover {
     color: #fff !important
 }
 
+.text-black {
+    color: #000 !important
+}
+
 .text-primary {
-    color: #3b4eda !important
+    color: #fff !important
 }
 
 a.text-primary:focus,
