@@ -39,3 +39,5 @@
 개발인원 : 9조 **[DevBinx 김정빈]**
 
 ![](https://geps.dev/progress/60)
+
+[DevBinx 김정빈]: https://github.com/DevBinx
