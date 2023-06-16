@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
 
   <!-- MAIN CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -25,9 +26,9 @@
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-
   <div class="site-wrap" id="home-section">
 
+    <!-- 모바일 전용 nav 탭 -->
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -36,10 +37,11 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
+    <!-- 모바일 전용 nav 탭 -->
 
 
 
-    <header class="site-navbar site-navbar-target" role="banner">
+    <header class="site-navbar site-navbar-target position-fixed bg-black" role="banner">
       <div class="container">
         <div class="row align-items-center position-relative">
           <!-- Header 로고 -->
@@ -55,15 +57,15 @@
 
             <span class="d-inline-block d-lg-none"><a href="#"
                 class="text-primary site-menu-toggle js-menu-toggle py-5">
-                <span class="icon-menu h3 text-primary"></span></a></span>
+                <span class="icon-menu h3 text-white"></span></a></span>
             <!-- 상단 nav -->
             <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
               <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li><a href="whoishe.html" class="nav-link">Who is He</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="active"><a href="index.html" class="nav-link apple-font font-weight-normal">Home</a></li>
+                <li><a href="gallery.html" class="nav-link apple-font font-weight-normal">Gallery</a></li>
+                <li><a href="whoishe.html" class="nav-link apple-font font-weight-normal">Who is He</a></li>
+                <li><a href="about.html" class="nav-link apple-font font-weight-normal">About</a></li>
+                <li><a href="contact.html" class="nav-link apple-font font-weight-normal">Contact</a></li>
               </ul>
             </nav>
             <!-- 상단 nav -->
@@ -72,13 +74,11 @@
       </div>
     </header>
 
-
     <div class="site-section-cover">
       <div class="container">
         <div class="row align-items-center text-center justify-content-center">
           <div class="col-lg-10">
-            <h1 class="text-white mb-4">Vincent Van Gogh Museum.</h1>
-            <p class="lead"></p>
+            <h1 class="text-white mb-4 apple-font font-weight-bold">Van Gogh Museum</h1>
           </div>
         </div>
       </div>
@@ -87,29 +87,28 @@
     <div class="container-fluid portfolio-wrap bg-light pt-0 site-section">
       <div class="row align-items-end mb-4">
         <div class="col-md-3">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/img_1.jpg" alt="Image"
+          <a href="blog.html" class="portfolio-item"><img src="images/yellow_house.webp" alt="Image"
               class="img-fluid"></a>
         </div>
         <div class="col-md-6">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/img_2.jpg" alt="Image"
-              class="img-fluid"></a>
+          <a href="about.html" class="portfolio-item"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
         </div>
-        <div class="col-md-3">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/img_3.jpg" alt="Image"
+        <div class="col-md-2">
+          <a href="blog.html" class="portfolio-item"><img src="images/night_terrace.webp" alt="Image"
               class="img-fluid"></a>
         </div>
       </div>
       <div class="row align-items-start">
-        <div class="col-md-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/img_2.jpg" alt="Image"
+        <div class="col-md-3">
+          <a href="blog.html" class="portfolio-item"><img src="images/sunflower.webp" alt="Image"
+              class="img-fluid"></a>
+        </div>
+        <div class="col-md-5">
+          <a href="blog_starry_night.html" class="portfolio-item"><img src="images/the-starry-night_bg.jpg" alt="Image"
               class="img-fluid"></a>
         </div>
         <div class="col-md-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/hero_1.jpg" alt="Image"
-              class="img-fluid"></a>
-        </div>
-        <div class="col-md-4">
-          <a href="portfolio-single.html" class="portfolio-item"><img src="images/hero_3.jpg" alt="Image"
+          <a href="blog.html" class="portfolio-item"><img src="images/cypresses.jpg" alt="Image"
               class="img-fluid"></a>
         </div>
       </div>
@@ -118,10 +117,9 @@
     <div class="site-section" style="background-color: black;">
       <div class="container mb-5">
         <div class="row">
-          <div class="col-md-7">
-            <h2 class="text-white font-weight-bold">Blog Updates</h2>
-            <p class="text-white lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ducimus facere
-              quam eos tempore beatae non eius, provident.</p>
+          <div class="col-md-10">
+            <h2 class="text-white font-weight-bold">Gallery</h2>
+            <p class="text-white lead apple-font">'영혼의 화가', '태양의 화가', '불멸의 화가'등 다양한 수식어가 따라다니는 반 고흐는 선명한 색채와 격렬한 필치로 불꽃같은 정열을 화폭에 쏟아냈다. 그의 작품들은 현대미술의 발전에 엄청난 영향을 미치며 지금까지도 전 세계인들의 전폭적인 지원과 사랑을 받고 있다.</p>
           </div>
         </div>
       </div>
@@ -132,81 +130,69 @@
 
         <div class="owl-carousel nonloop-block-13">
           <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
+            <a href="blog_starry_night.html" class="d-block mb-4"><img src="images/the-starry-night-900x800.jpg" alt="Image" class="img-fluid"></a>
+            <span class="date d-block">Year, 1890</span>
+            <h3 class="mb-4"><a href="#">The Starry Night</a></h3>
             <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
               <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
+                <span class="d-block">by Vincent Van Gogh</span>
               </div>
             </div>
           </div>
 
 
           <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
+            <a href="#" class="d-block mb-4"><img src="images/sunflower-900x800.webp" alt="Image" class="img-fluid"></a>
+            <span class="date d-block">Year, 1888</span>
+            <h3 class="mb-4"><a href="#">Sunflower</a></h3>
             <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
               <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
+                <span class="d-block">by Vincent Van Gogh</span>
               </div>
             </div>
           </div>
 
           <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
+            <a href="#" class="d-block mb-4"><img src="images/yellow_house-900x800.webp" alt="Image" class="img-fluid"></a>
+            <span class="date d-block">Year, 1888</span>
+            <h3 class="mb-4"><a href="#">The Yellow House</a></h3>
             <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
               <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
+                <span class="d-block">by Vincent Van Gogh</span>
               </div>
             </div>
           </div>
 
           <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/img_2.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
+            <a href="#" class="d-block mb-4"><img src="images/cypresses-900x800.jpg" alt="Image" class="img-fluid"></a>
+            <span class="date d-block">July, 1889</span>
+            <h3 class="mb-4"><a href="#">Wheat Field with Cypresses</a></h3>
             <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
               <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
+                <span class="d-block">by Vincent Van Gogh</span>
               </div>
             </div>
           </div>
 
 
           <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
+            <a href="#" class="d-block mb-4"><img src="images/night_terrace-900x800.webp" alt="Image" class="img-fluid"></a>
+            <span class="date d-block">Year, 1888</span>
+            <h3 class="mb-4"><a href="#">Café Terrace at Night</a></h3>
             <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
               <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
+                <span class="d-block">by Vincent Van Gogh</span>
               </div>
             </div>
           </div>
 
           <div class="media-29191">
-            <a href="#" class="d-block mb-4"><img src="images/img_3.jpg" alt="Image" class="img-fluid"></a>
-            <span class="date d-block">October 18, 2019</span>
-            <h3 class="mb-4"><a href="#">Google saying pseudo-telephoto is more important</a></h3>
+            <a href="#" class="d-block mb-4"><img src="images/star-cypress-900x800.webp" alt="Image" class="img-fluid"></a>
+            <span class="date d-block">Year, 1890</span>
+            <h3 class="mb-4"><a href="#">Road With Cypresse and Star</a></h3>
             <div class="d-flex vcard-91123 align-items-center">
-              <div class="img mr-3"><img src="images/person_1.jpg" alt="Image" class="img-fluid"></div>
               <div class="name">
-                <span class="d-block">by John Freeman</span>
-                <span>Thinker &amp; Designer</span>
+                <span class="d-block">by Vincent Van Gogh</span>
               </div>
             </div>
           </div>
@@ -216,6 +202,8 @@
       </div>
     </div>
 
+
+    <!-- footer -->
     <div class="footer site-section">
       <div class="container">
         <div class="row">
@@ -239,7 +227,7 @@
         </div>
       </div>
     </div>
-
+    <!-- footer -->
 
 
 
