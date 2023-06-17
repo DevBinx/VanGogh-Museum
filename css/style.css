@@ -72,6 +72,30 @@ html {
   font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
 }
 
+.helveica-neue {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.helveica-neue-ultra-light {
+  font-family: 'Helvetica 25 UltraLight', sans-serif;
+}
+
+.helveica-neue-thin {
+  font-family: 'Helvetica 35 Thin', sans-serif;
+}
+
+.helveica-neue-light {
+  font-family: 'Helvetica 45 Light',  sans-serif;
+}
+
+.helveica-neue-roman {
+  font-family: 'Helvetica 55 Roman', sans-serif;
+}
+
+.helveica-neue-medium {
+  font-family: 'Helvetica 65 Medium', sans-serif;
+}
+
 .font-gray-1 {
   color: #f7f7f7; }
 
@@ -1105,8 +1129,8 @@ h1, h2, h3, h4, h5,
   z-index: 9999;
   -webkit-animation: load 0.8s infinite linear;
   -moz-animation: load 0.8s infinite linear;
-  ms-animation: load 0.8s infinite linear;
-  o-animation: load 0.8s infinite linear;
+  -ms-animation: load 0.8s infinite linear;
+  -o-animation: load 0.8s infinite linear;
   animation: load 0.8s infinite linear;
 }
 
