@@ -50,7 +50,7 @@
         <div class="row align-items-center position-relative">
           <div class="col-3">
             <div class="site-logo">
-              <a href="index.html" class="helveica-neue">Van Gogh Museum</a>
+              <a href="/" class="helveica-neue">Van Gogh Museum</a>
             </div>
           </div>
           <div class="col-9  text-right">
@@ -59,11 +59,11 @@
                 <span class="icon-menu h3 text-primary"></span></a></span>
             <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
               <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li><a href="index.html" class="nav-link helveica-neue">Home</a></li>
-                <li><a href="Gallery.html" class="nav-link helveica-neue">Gallery</a></li>
-                <li><a href="whoishe.html" class="nav-link helveica-neue">Who is He</a></li>
-                <li><a href="about.html" class="nav-link helveica-neue">About</a></li>
-                <li><a href="contact.html" class="nav-link helveica-neue">Contact</a></li>
+                <li><a href="/" class="nav-link helveica-neue">Home</a></li>
+                <li><a href="/gallery" class="nav-link helveica-neue">Gallery</a></li>
+                <li><a href="/gogh" class="nav-link helveica-neue">Who is He</a></li>
+                <li><a href="/about" class="nav-link helveica-neue">About</a></li>
+                <li><a href="/contact" class="nav-link helveica-neue">Contact</a></li>
               </ul>
             </nav>
           </div>
@@ -125,40 +125,16 @@
           </div>
         </div>
         <div class="row text-center mt-5">
-          <div class="col-md-12"><a href="blog_sunflower.html" class="btn btn-block border p-3">Next</a></div>
+          <div class="col-md-12"><a href="/sunflower" class="btn btn-block border p-3">Next</a></div>
         </div>
       </div>
     </div>
 
+    <!------------------------------------------------------------------ 
+              Footer
+              ------------------------------------------------------------------>
 
-    <!-- footer -->
-    <div class="footer site-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="site-logo-footer">
-              <a href="index.html">Van Gogh Museum</a>
-            </div>
-          </div>
-          <div class="col-md-8 ml-auto">
-            <div class="row">
-              <div class="col-md-4">
-                <ul class="list-unstyled links">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">About Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <!-- footer -->
-
-
+    <div id="footer"> </div>
 
   </div>
 
@@ -188,6 +164,15 @@
       startDelay: 1000,
       loop: true,
       showCursor: true
+    });
+  </script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $("#footer").load("footer.html");
+      /* id 지정을 통해서도 가능합니다. 
+       $("#header").load("header.html #navbar")
+       */
     });
   </script>
 
