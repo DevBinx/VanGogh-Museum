@@ -18,16 +18,26 @@
   <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+  <link href="https://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
 
-  <!-- MAIN CSS -->
+  <!------------------------------------------------------------------ 
+          MAIN CSS
+          ------------------------------------------------------------------>
+
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
+  <div class="page-loader">
+    <div class="loader">Loading...</div>
+  </div>
 
   <div class="site-wrap" id="home-section">
+
+    <!------------------------------------------------------------------ 
+          모바일 전용 nav 탭
+          ------------------------------------------------------------------>
 
     <div class="site-mobile-menu site-navbar-target">
       <div class="site-mobile-menu-header">
@@ -38,41 +48,39 @@
       <div class="site-mobile-menu-body"></div>
     </div>
 
-
+    <!------------------------------------------------------------------ 
+          Header Nav 탭
+          ------------------------------------------------------------------>
 
     <header class="site-navbar site-navbar-target position-fixed bg-black" role="banner">
       <div class="container">
         <div class="row align-items-center position-relative">
-          <!-- Header 로고 -->
           <div class="col-3">
             <div class="site-logo">
               <a href="index.html" class="font-weight-bold">Van Gogh Museum</a>
             </div>
           </div>
-          <!-- Header 로고 -->
-
           <div class="col-9  text-right">
-
-
             <span class="d-inline-block d-lg-none"><a href="#"
                 class="text-primary site-menu-toggle js-menu-toggle py-5">
                 <span class="icon-menu h3 text-primary"></span></a></span>
-            <!-- 상단 nav -->
             <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
               <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                <li><a href="index.html" class="nav-link apple-font font-weight-normal">Home</a></li>
-                <li><a href="Gallery.html" class="nav-link apple-font font-weight-normal">Gallery</a></li>
-                <li><a href="whoishe.html" class="nav-link apple-font font-weight-normal">Who is He</a></li>
-                <li class="active"><a href="about.html" class="nav-link apple-font font-weight-normal">About</a></li>
-                <li><a href="contact.html" class="nav-link apple-font font-weight-normal">Contact</a></li>
+                <li><a href="index.html" class="nav-link helveica-neue">Home</a></li>
+                <li><a href="Gallery.html" class="nav-link helveica-neue">Gallery</a></li>
+                <li><a href="whoishe.html" class="nav-link helveica-neue">Who is He</a></li>
+                <li class="active"><a href="about.html" class="nav-link helveica-neue">About</a></li>
+                <li><a href="contact.html" class="nav-link helveica-neue">Contact</a></li>
               </ul>
             </nav>
-            <!-- 상단 nav -->
           </div>
         </div>
       </div>
     </header>
 
+    <!------------------------------------------------------------------ 
+          Section 커버
+          ------------------------------------------------------------------>
 
     <div class="site-section-cover">
       <div class="container">
@@ -86,6 +94,9 @@
       </div>
     </div>
 
+    <!------------------------------------------------------------------ 
+          Section Content
+          ------------------------------------------------------------------>
 
     <div class="site-section about-me">
       <div class="container">
@@ -106,7 +117,11 @@
         </div>
       </div>
     </div>
-    <!-- footer -->
+
+    <!------------------------------------------------------------------ 
+          Footer
+          ------------------------------------------------------------------>
+
     <div class="footer site-section">
       <div class="container">
         <div class="row">
@@ -130,7 +145,6 @@
         </div>
       </div>
     </div>
-    <!-- footer -->
 
   </div>
 
